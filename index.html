@@ -217,7 +217,7 @@
                     if (eggPrices[countryName]) {
                         tooltip
                             .style("display", "block")
-                            .html(<strong>${countryName}</strong>: ${eggPrices[countryName]})
+                            .html(`<strong>${countryName}</strong>: ${eggPrices[countryName]}`)
                             .style("left", (event.pageX + 10) + "px")
                             .style("top", (event.pageY - 10) + "px");
                     }
